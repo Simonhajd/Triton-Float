@@ -1,0 +1,7 @@
+BOM
+BOM,,,,,,,
+BOM,,,,,,,
+FlightController,,,,,,,
+Id,Designator,Footprint,Quantity,Comment,Supplier and ref,,
+1,"R3,R1",R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,2,0.1uF,,,
+2,"R4,R2",R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,2,10uF,,,

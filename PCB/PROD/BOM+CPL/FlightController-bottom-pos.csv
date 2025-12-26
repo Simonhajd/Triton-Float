@@ -1,0 +1,4 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"J2","+","PinHeader_1x01_P2.54mm_Vertical",135.100000,-124.400000,180.000000,bottom
+"J3","-","PinHeader_1x01_P2.54mm_Vertical",152.300000,-124.400000,180.000000,bottom
+"J5","Feedback This Side","PinHeader_1x05_P2.54mm_Vertical",110.700000,-83.080000,180.000000,bottom
