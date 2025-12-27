@@ -438,6 +438,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Linear:AP2127N-1.0"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U2"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AP2127N-1.0"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2127.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "300mA low dropout linear regulator, shutdown pin, 2.5V-6V input voltage, 1.0V fixed positive output, SOT-23 package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AP2127N-1.0_0_1"
+				(rectangle
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AP2127N-1.0_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GATE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text_box "NEED N-Mosfet for Q\n"
 		(exclude_from_sim no)
@@ -461,22 +601,22 @@
 	)
 	(global_label "VOUT"
 		(shape input)
-		(at 119.38 105.41 180)
+		(at 160.02 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "2d0c2b19-983a-4d9a-b7a9-c8c9fae99c3d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.6776 105.41 0)
+			(at 167.7224 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -494,6 +634,50 @@
 		(uuid "37b0128d-e957-42c1-818e-54df3867942c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 126.313 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MAIN"
+		(shape input)
+		(at 149.86 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "80dc7242-6cbf-42a6-bdce-82cd01d2af82")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.3205 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RAWSWPOWER"
+		(shape input)
+		(at 134.62 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "92fc9075-b20d-40ee-a835-ce7b4746ab6e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.693 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -591,6 +775,122 @@
 			)
 		)
 	)
+	(global_label "SIG"
+		(shape input)
+		(at 142.24 129.54 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d679e2e4-b95f-4605-aecc-e64824dc2adb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.24 135.6095 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SIG"
+		(shape input)
+		(at 119.38 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dab5177d-7410-4c5e-8c8a-0f8051e93bc4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.3105 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:AP2127N-1.0")
+		(at 142.24 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d78ae4c-4621-47f3-98da-608b372bc272")
+		(property "Reference" "U2"
+			(at 142.24 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP2127N-1.0"
+			(at 142.24 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 142.24 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2127.pdf"
+			(at 142.24 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "300mA low dropout linear regulator, shutdown pin, 2.5V-6V input voltage, 1.0V fixed positive output, SOT-23 package"
+			(at 142.24 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "eefa1734-43c9-47b3-8e50-6546397c9da0")
+		)
+		(pin "1"
+			(uuid "98f90b30-7fc9-4e92-be6b-cc2963d0aaae")
+		)
+		(pin "2"
+			(uuid "7137ac17-e4db-4bc5-b404-6bc3b9b48e8f")
+		)
+		(instances
+			(project ""
+				(path "/bca63e1f-d422-43ee-b63a-c2b8269ab195"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "2025-12-27_01-22-46:TLE49643MXTMA1")
 		(at 119.38 105.41 0)
@@ -617,7 +917,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PG-SOT23-3-15_INF"
+		(property "Footprint" "TLE49643MXTMA1:PG-SOT23-3-15_INF"
 			(at 119.38 105.41 0)
 			(effects
 				(font
@@ -692,7 +992,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal"
 			(at 147.32 83.82 0)
 			(effects
 				(font

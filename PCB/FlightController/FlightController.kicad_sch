@@ -2311,7 +2311,7 @@
 	)
 	(global_label "SWVOUT"
 		(shape input)
-		(at 173.99 151.13 0)
+		(at 173.99 148.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2321,7 +2321,7 @@
 		)
 		(uuid "0223734c-e3f3-4bd1-8706-5aef98267e47")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.3533 151.13 0)
+			(at 184.3533 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3235,7 +3235,7 @@
 	)
 	(global_label "RAWSWPOWER"
 		(shape input)
-		(at 173.99 148.59 0)
+		(at 173.99 151.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3245,7 +3245,7 @@
 		)
 		(uuid "ed17fb92-b145-4ab3-be65-de1cc25ddf5c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.917 148.59 0)
+			(at 189.917 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
