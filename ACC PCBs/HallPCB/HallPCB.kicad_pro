@@ -486,7 +486,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "FAB/",
+      "plot": "../../../Downloads/PWROUTPUT/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

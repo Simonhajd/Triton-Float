@@ -601,22 +601,22 @@
 	)
 	(global_label "VOUT"
 		(shape input)
-		(at 160.02 107.95 0)
+		(at 119.38 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "2d0c2b19-983a-4d9a-b7a9-c8c9fae99c3d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.7224 107.95 0)
+			(at 111.6776 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -799,22 +799,22 @@
 	)
 	(global_label "SIG"
 		(shape input)
-		(at 119.38 105.41 180)
+		(at 160.02 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "dab5177d-7410-4c5e-8c8a-0f8051e93bc4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.3105 105.41 0)
+			(at 166.0895 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
