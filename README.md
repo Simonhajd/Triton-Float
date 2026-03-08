@@ -2,7 +2,7 @@
 
 Development repository for the 2026 Triton Robotics Float.
 
----
+
 
 ## Overview
 
@@ -10,7 +10,7 @@ Development repository for the 2026 Triton Robotics Float.
 The Triton Float is being developed for the 2026 MATE ROV Pioneer competition (Newfoundland).
 This design iteration is approximately 33% smaller than last year's model, while targeting more than 2× performance improvements in speed and significantly increased precision through layered redundancy and sensor feedback systems. It also includes a dedicated LoRa radio as opposed to last year's 4cm wire antenna, which will increase the reliability and robustness of the system.
 
----
+
 
 ## Features
 
@@ -24,7 +24,7 @@ Accuracy Strategy:
 - Pre-calibrated pump flow rate modeling for predictive adjustment
 - Additional onboard MCU sensors for reproducible control accuracy
   
----
+
 
 ## Hardware / Electrical
 
@@ -42,7 +42,7 @@ Accuracy Strategy:
 - PCB Revisions:  
   R2 completed, R3 in development
 
----
+
 
 ## Mechanical Design
 
@@ -70,7 +70,7 @@ Accessory PCB used to isolate power regulation from main control logic
 
 R3 revision addresses footprint issues and uses a different simpler power system for a working prototype.
 
----
+
 
 ## Current Status
 
@@ -79,7 +79,7 @@ R3 revision addresses footprint issues and uses a different simpler power system
 - Completed: R2.
 - Next steps: Testing R3 when it comes in.
 
----
+
 
 ## Tools 
 
