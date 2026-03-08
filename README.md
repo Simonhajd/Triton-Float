@@ -89,7 +89,7 @@ R3 revision addresses footprint issues and uses a different simpler power system
 
 ---
 
-## Images (Optional)
+## Images
 <img width="220" alt="Screenshot 2026-02-16 at 4 56 35 PM" src="https://github.com/user-attachments/assets/93eaf852-09b1-407b-b515-f2f914b68fb8" />
 
 
